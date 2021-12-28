@@ -37,8 +37,8 @@
 let input = document.querySelector('input');
 let button = document.querySelector('button');
 let qrcode = new QRCode(document.querySelector('#qrcode'), {    
-    width: 400,
-    height: 400,
+    width: 300,
+    height: 300,
     colorDark : "#000000",
     colorLight : "#ffffff",
     correctLevel : QRCode.CorrectLevel.H
