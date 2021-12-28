@@ -1,0 +1,66 @@
+body {
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+
+
+.title {
+    margin: 40px auto 20px;
+    width: max-content;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.container {
+    margin: 0 auto;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+#input {
+    width: 300px;
+    transition: all 0.3s;
+    outline: none;
+    padding: 12.5px 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    
+}
+
+#input:hover,
+#input:focus {
+    width: 350px;
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    
+    color: #ffffff;
+    background-color: #97CFC9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    padding: 10px 32px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 30px;
+  
+}
+
+.btn:hover {
+  background-color: #8DAECA;
+}
+
+#qrcode {
+    width: max-content;
+    margin: 0 auto;
+    padding-top: 70px;
+}
